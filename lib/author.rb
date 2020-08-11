@@ -7,5 +7,5 @@ class Author
   end
 
   def posts
-    Post.all? { |e|  }
+    Post.all
 end
