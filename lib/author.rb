@@ -8,4 +8,5 @@ class Author
 
   def posts
     Post.all
+  end
 end
