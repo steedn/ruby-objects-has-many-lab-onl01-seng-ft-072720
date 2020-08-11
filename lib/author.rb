@@ -26,4 +26,9 @@ class Author
     title = Post.new(name)
     title.author = self
   end
+
+  def post_count
+    @@all.length
+
+  end
 end
