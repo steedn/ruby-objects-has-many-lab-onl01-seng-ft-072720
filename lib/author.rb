@@ -18,6 +18,7 @@ class Author
     Post.all
   end
 
-  def add_post
+  def add_post(name)
+    
   end
 end
