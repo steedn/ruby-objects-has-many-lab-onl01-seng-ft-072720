@@ -1,12 +1,12 @@
 class Post
-  @@posts = []
+  @@all = []
   attr_accessor :name
 
   def initialize
     @@posts <<@name
   end
 
-  def posts
-    @@posts
+  def self.all
+    @@all
   end
 end
