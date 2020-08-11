@@ -29,6 +29,5 @@ class Author
 
   def post_count
     @@all.length
-
   end
 end
