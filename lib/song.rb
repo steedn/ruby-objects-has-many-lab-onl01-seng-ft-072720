@@ -4,10 +4,10 @@ class Song
 
   attr_accessor :songs
 
-  @songs =[]
+  @@all =[]
 
   def initialize(song)
-    @songs << song
-    binding.pry
+    @@all << song
+    # binding.pry
   end
 end
