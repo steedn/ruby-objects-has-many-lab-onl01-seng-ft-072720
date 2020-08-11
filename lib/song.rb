@@ -10,4 +10,8 @@ class Song
     @@all << song
     # binding.pry
   end
+
+  def all
+    @@all
+  end
 end
