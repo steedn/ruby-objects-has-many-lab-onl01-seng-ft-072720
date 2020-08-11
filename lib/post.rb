@@ -12,5 +12,7 @@ class Post
   end
 
   def post_count
+    @@all.length
+
   end
 end
