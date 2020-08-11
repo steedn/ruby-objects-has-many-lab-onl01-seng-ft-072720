@@ -1,2 +1,3 @@
 class Post
+  @@posts = []
 end
