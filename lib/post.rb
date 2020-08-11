@@ -3,7 +3,7 @@ class Post
   attr_accessor :name
 
   def initialize
-    @@posts <<@name
+    @@all <<@name
   end
 
   def self.all
