@@ -7,7 +7,7 @@ class Song
   @@all =[]
 
   def initialize(song)
-    @@all << song
+    @@all << self
     # binding.pry
   end
 
