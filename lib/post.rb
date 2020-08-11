@@ -10,9 +10,7 @@ class Post
   def self.all
     @@all
   end
-
-  def post_count
-    @@all.length
-
+  def author_name
   end
+
 end
